@@ -1,0 +1,117 @@
+/*MENU*/
+.menu_bar {
+    display: none;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    background: rgba(0, 132, 255, 0.9);
+    font-size: 15px;
+    color: #ffffff;
+    width: 100%;
+    z-index: 999999999;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header nav a:visited {
+    text-decoration: none;
+    color: #ffffff
+}
+
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+
+header nav ul li:hover {
+    background: rgb(225, 225, 255, 0.2);
+}
+
+
+/*PROPIEDAD ESTATICA PARA MENU AL HACER SCROLL*/
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    /*left:0;*/
+    /*Podemos hacer que el menu abarque el 100% al hacer scroll*/
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width:850px) {
+
+    body {
+        padding-top: 50px;
+    }
+
+    .menu_bar {
+        display: block;
+        width: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        background: rgba(0, 132, 255, 0.9);
+        z-index: 999999999;
+    }
+
+    .menu_bar .bt-menu {
+        display: block;
+        padding: 10px;
+        color: #ffffff;
+        overflow: hidden;
+        font-size: 25px;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+
+    .menu_bar span {
+        float: right;
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+
+    header nav {
+        width: 80%;
+        height: calc(100% - 50px);
+        position: fixed;
+        right: 100%;
+        margin-top: 50px;
+        overflow: scroll;
+        top: 0px;
+
+    }
+
+    header nav ul li {
+        display: block;
+        border-top: 1px solid #00FFE2;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 13px 20px;
+    }
+
+    /*  @keyframes swingdown {
+    transform: none;
+  } */
+}

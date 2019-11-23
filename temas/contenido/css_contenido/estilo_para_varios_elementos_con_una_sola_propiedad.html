@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" dir="ltr">
+<head>
+
+<title>Estilo para varios elementos con una sola propiedad, curso CSS gratis, estilo para paginas web</title>
+
+  <!--FAVICON-->
+   <link rel="icon" type="image/png" href="../../../imagenes/favicon.ico" />
+   <!--CSS PRINCIPAL-->
+    <link href="../../../css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="../../../css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="../../../css/cookies.css" rel="stylesheet" type="text/css" />
+   <!--Iconos-->
+   <link href="../../../css/fonts/style.css" rel="stylesheet" type="text/css" />
+
+<!--Generador de codigo-->
+<link type="text/css" rel="stylesheet" href="../../../css/caja-de-codigo.css"/>
+
+
+
+<!--METAS DE FACEBOOK-->
+<meta property="og:locale" content="es_ES"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Estilo para varios elementos con una sola propiedad, curso CSS gratis, estilo para paginas web"/>
+<meta property="og:description" content="Añadir estilo a varios elementos html usando una sola propiedad en css de manera facil y sencilla, todo esto y muchos temas mas en nuestro curso de gratis de CSS"/>
+<meta property="og:site_name" content="TU WEB Informativa"/>
+<meta property="og:image" content=""/><meta property="og:image:type" content="image/jpeg" /><meta property="og:image:type" content="image/jpg" /><meta property="og:image:type" content="image/png" />
+
+<!-- Metas en la web -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Metas que describen la pagina para una mayor facilidad en el buscador -->
+<!--********meta 1 titulo de la pagina********-->
+   <meta name="title" content="Estilo para varios elementos con una sola propiedad, curso CSS gratis, estilo para paginas web"/>
+<!--********meta 2 nombre del autor********-->
+   <meta name="author" content="Amador J. Martinez R. "/>
+<!--********meta 3 descripcion de la pagina********-->
+   <meta name="description" content="
+   "/>
+<!--********meta 4 palabras claves para busqueda********-->
+   <meta name="keywords" content="android, juegos, apk, aplicaciones, secretos, limpieza, sistema, utilidades, derechos
+   copyrigth, programacion, tecnologia, windows, www, web, informacion, html, xhtml, css, php, javascript, informatica, avances, edicion web, programacion, informatica, etc"/>
+<!--********meta 5 lenguajes que tendra tu pagina*******-->
+   <meta name="lenguage" content="all language"/>
+<!--********meta 6 derechos de la pagina********-->
+   <meta name="Copyright" content="2019. Todos los derechos reservados."/>
+<!--********meta 7 indexar paginas por los navegadores********-->
+   <meta name="robots" content="index,follow"/>
+<!--********meta 8 diseño adaptivo a todo tipo de pantallas********-->
+   <meta name="viewport" content="width=device-width, user=scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"> 
+
+
+</head>
+<body>
+
+<div id="master">
+
+<!--banner-->
+<div id="banner-logo">
+<a href="../../../index.html"><img src="../../../imagenes/banner1.jpg" style="width:100%;height:100%; border:0;" alt="banner"/></a>
+</div>
+
+<!--Menu-->
+<header><div class="menu_bar"><a href="#" class="bt-menu"><span class="icon-list"></span>Menu</a></div><div id="containerbalanceo">
+<nav class="menu">
+<ul id="menubalanceo">
+
+                  <li><a href="../../../index.html"><span class="icon-home"></span>Inicio</a></li>
+
+                  <li><a href="../../../temas/html.html"><span class="icon-html-five"></span>HTML5</a></li>
+
+                  <li><a href="../../../temas/css.html"><span class="icon-css3"></span>CSS3</a></li>
+
+                  <li><a href="../../../temas/javascript.html"><span class="icon-mug"></span>Javascript</a></li>
+
+                  <li><a href="../../../temas/php.html"><span class="icon-database"></span>PHP</a></li>
+
+                  <li><a href="../../../temas/programacion.html"><span class="icon-embed2"></span>Programación</a></li>
+
+                  <li><a href="../../../temas/acerca_de/acerca_de.html"><span class="icon-info"></span>Acerca de</a>
+                  </li>
+               </ul>
+</nav>
+</div>
+</header>
+
+<div id="margen">
+<br>
+
+<div class="informacion">
+<h1>Estilo para varios elementos con una sola propiedad CSS</h1>
+<br> 
+Añadir varios estilos CSS a elementos HTML usando una sola propiedad es una de las funciones que nos permite CSS, esto es muy fácil, útil y complejo, no solo porque nos evita escribir más de la cuenta, si no porque ahorrar la escritura de etiquetas, nos evita añadir cada etiqueta una y otra vez para añadirle un determinado estilo; Y mientras menos código mucho mejor. 
+<br>
+<br>
+La sintaxis es disponer los nombres de los elementos HTML que queremos aplicar una regla separados por coma y luego añadirle los estilo que queremos. Ejemplo:
+<br>
+<br>
+En este ejemplo usaremos la misma fuente y color para los elementos h1, h2 y h3. Los vamos a colocar dentro de &lt;head&gt; y luego dentro de &lt;style&gt;, cada uno separado por coma, Obvio los atributos no colocados adentro de nuestra propiedad "&lt;style&gt;" no cambiaran en absoluto. Veamos unas imágenes a continuación. 
+<br>
+<br>
+<b>Así es como sera nuestro código:</b>
+<br>
+
+<pre class="brush: html; html-script: false; auto-links: false; class-name:'class_name_demo'">
+&lt;html&gt;
+&lt;head&gt;
+
+&lt;style&gt;
+h1, h2, h3 {
+  color:#fff; background-color: #000; font-family: Times New Roman;
+}
+&lt;/style&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Este atributo "h1" si cambio&lt;/h1&gt;
+&lt;h2&gt;Este atributo "h2" si cambio&lt;/h2&gt;
+&lt;h3&gt;Este atributo "h3" si cambio&lt;/h3&gt;
+&lt;h4&gt;Este atributo "h4" no cambio&lt;/h4&gt;
+&lt;h5&gt;Este atributo "h5" no cambio&lt;/h5&gt;
+&lt;h6&gt;Este atributo "h6" no cambio&lt;/h6&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<br>
+<b>Así es como se visualizara:</b>
+<br>
+<br>
+<div class="imagen-borde-programacion">
+<img src="../../../imagenes/css_contenido_imagenes/estilo_para_varios_elementos_con_una_sola_propiedad_imagen2.jpg" alt="Estilo para varios elementos imagen2" style="width:100%;height:0auto;"/>
+</div>
+</div>
+
+
+</div>
+      <!--Derechos de autor-->
+
+      <br><br>
+      <footer>
+         <p class="acerca_de">Todos los derechos reservados.
+            <br>
+            Derechos de autor © 2016 - 2019 Amador J. Martínez R.
+
+         </p>
+      </footer>
+   </div>
+
+
+
+
+<!--caja de codigo/generador de etiquetas-->
+<script type="text/javascript" src="../../../javascript/caja-de-codigo/shCore.js"></script>
+<!--lenguajes de la caja de codigo-->
+<script type="text/javascript" src="../../../javascript/caja-de-codigo/shBrushXml.js"></script>
+<script type="text/javascript" src="../../../javascript/caja-de-codigo/shBrushCss.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!--Menu scroll-->
+<script src="../../../javascript/jquery-latest.js"></script>
+<script src="../../../javascript/menu-desplegable.js"></script>
+<script src="../../../javascript/menu-responsive.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" dir="ltr">
+<head>
+
+<title>Efecto slideshow en imágenes, cambio de imágenes al pasar el cursor, curso de HTML gratis, creación de paginas web</title>
+
+  <!--FAVICON-->
+   <link rel="icon" type="image/png" href="../../../imagenes/favicon.ico" />
+   <!--CSS PRINCIPAL-->
+    <link href="../../../css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="../../../css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="../../../css/cookies.css" rel="stylesheet" type="text/css" />
+   <!--Iconos-->
+   <link href="../../../css/fonts/style.css" rel="stylesheet" type="text/css" />
+
+<!--Generador de codigo-->
+<link type="text/css" rel="stylesheet" href="../../../css/caja-de-codigo.css"/>
+
+
+
+<!--METAS DE FACEBOOK-->
+<meta property="og:locale" content="es_ES"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Efecto slideshow en imagenes, cambio de imagenes al pasar el cursor, curso de HTML gratis, creación de paginas web"/>
+<meta property="og:description" content="Con esta propiedad podemos hacer que al pasar el cursor sobre alguna de nuestras imágenes cambie inmediatamente por otra y al quitar el cursor de dicha imagen vuelva a la original, sin duda una propiedad con un efecto sorprende te para nuestras imágenes en HTML"/>
+<meta property="og:site_name" content="TU WEB Informativa"/>
+<meta property="og:image" content=""/><meta property="og:image:type" content="image/jpeg" /><meta property="og:image:type" content="image/jpg" /><meta property="og:image:type" content="image/png" />
+
+<!-- Metas en la web -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Metas que describen la pagina para una mayor facilidad en el buscador -->
+<!--********meta 1 titulo de la pagina********-->
+   <meta name="title" content="Efecto slideshow en imagenes, cambio de imagenes al pasar el cursor, curso de HTML gratis, creación de paginas web"/>
+<!--********meta 2 nombre del autor********-->
+   <meta name="author" content="Amador J. Martinez R. "/>
+<!--********meta 3 descripcion de la pagina********-->
+   <meta name="description" content="Con esta propiedad podemos hacer que al pasar el cursor sobre alguna de nuestras imágenes cambie inmediatamente por otra y al quitar el cursor de dicha imagen vuelva a la original, sin duda una propiedad con un efecto sorprende te para nuestras imágenes en HTML"/>
+<!--********meta 4 palabras claves para busqueda********-->
+   <meta name="keywords" content="android, juegos, apk, aplicaciones, secretos, limpieza, sistema, utilidades, derechos
+   copyrigth, programacion, tecnologia, windows, www, web, informacion, html, xhtml, css, php, javascript, informatica"/>
+<!--********meta 5 lenguajes que tendra tu pagina*******-->
+   <meta name="lenguage" content="español, ingles, spanish, english, all language"/>
+<!--********meta 6 derechos de la pagina********-->
+   <meta name="Copyright" content="2019. Todos los derechos reservados."/>
+<!--********meta 7 indexar paginas por los navegadores********-->
+   <meta name="robots" content="index,follow"/>
+<!--********meta 8 diseño adaptivo a todo tipo de pantallas********-->
+   <meta name="viewport" content="width=device-width, user=scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"> 
+
+
+</head>
+<body>
+<div id="master">
+
+<!--banner-->
+<div id="banner-logo">
+<a href="../../../index.html"><img src="../../../imagenes/banner1.jpg" style="width:100%;height:100%; border:0;" alt="banner"/></a>
+</div>
+
+<!--Menu-->
+<header><div class="menu_bar"><a href="#" class="bt-menu"><span class="icon-list"></span>Menu</a></div>
+<div id="containerbalanceo">
+<nav class="menu">
+<ul id="menubalanceo">
+
+                  <li><a href="../../../index.html"><span class="icon-home"></span>Inicio</a></li>
+
+                  <li><a href="../../../temas/html.html"><span class="icon-html-five"></span>HTML5</a></li>
+
+                  <li><a href="../../../temas/css.html"><span class="icon-css3"></span>CSS3</a></li>
+
+                  <li><a href="../../../temas/javascript.html"><span class="icon-mug"></span>Javascript</a></li>
+
+                  <li><a href="../../../temas/php.html"><span class="icon-database"></span>PHP</a></li>
+
+                  <li><a href="../../../temas/programacion.html"><span class="icon-embed2"></span>Programación</a></li>
+
+                  <li><a href="../../../temas/acerca_de/acerca_de.html"><span class="icon-info"></span>Acerca de</a>
+                  </li>
+               </ul>
+</nav>
+</div>
+</header>
+
+<div id="margen">
+<br>
+<div class="informacion">
+<h1>Efecto slideshow en imágenes, cambio de imágenes al pasar el cursor</h1>
+
+<br>
+Imágenes con efecto slideshows, presentaciones que cambian al pasar el cursor, Un efecto visual muy fascinante y llamativo para el usuario, este efecto da un toque animado a nuestra web, 
+ademas que es muy útil para mostrar varias imágenes. 
+<br>
+<br>
+Para añadir una imagen con efecto slideshows vamos a usar las siguientes propiedades que pertenecen a eventos en <a href="../../javascript.html">JavaScript</a> pero que pueden ser usadas en HTML. Estas son: 
+<br>
+<br>
+<b>onmouseout</b>="this.src='imagen1.jpg';"  
+<br>
+<br>
+<b>onmouseover</b>="this.src='imagen2.jpg';" 
+<br> 
+<br>
+Vamos a usar una etiqueta sencilla para añadir una imagen y usaremos las propiedades nombradas anteriormente. Un ejemplo seria el siguiente. 
+<br>
+
+<pre class="brush: html; html-script: false; auto-links: true; class-name:'class_name_demo'">
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;img src="imagen1.jpg" style="width:200px; height:200px;" onmouseout="this.src='imagen1.jpg';" 
+onmouseover="this.src='imagen2.jpg';" /&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<br>
+Como se a explicado anteriormente colocamos una simple etiqueta para una imagen, luego en <b>onmouseout</b> vamos a colocar la misma imagen (esta es la que aparece al quitar el cursor, en este caso queremos que sea la misma imagen), luego añadimos la propiedad <b>onmouseover</b> con la imagen que queremos que aparezca al pasar el cursor encima; Al final hemos añadido un width y un height para indicar el ancho y el alto de la imagen.
+</div>
+
+<br>
+<div class="imagen-borde-programacion">
+<img src="../../../imagenes/html_contenido_imagenes/efecto_slideshow_imagene.jpg" alt="efecto_slideshow_imagene" style="width:100%;height:0auto;"/>
+</div>
+
+
+ 
+</div>
+      <!--Derechos de autor-->
+
+      <br><br>
+      <footer>
+         <p class="acerca_de">Todos los derechos reservados.
+            <br>
+            Derechos de autor © 2016 - 2019 Amador J. Martínez R.
+
+         </p>
+      </footer>
+   </div>
+
+
+
+
+<!--caja de codigo/generador de etiquetas-->
+<script type="text/javascript" src="../../../javascript/caja-de-codigo/shCore.js"></script>
+<!--lenguajes de la caja de codigo-->
+<script type="text/javascript" src="../../../javascript/caja-de-codigo/shBrushXml.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!--Menu scroll-->
+<script src="../../../javascript/jquery-latest.js"></script>
+<script src="../../../javascript/menu-desplegable.js"></script>
+<script src="../../../javascript/menu-responsive.js"></script>
+
+</body>
+</html>

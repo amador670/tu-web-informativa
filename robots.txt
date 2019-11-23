@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /css/
+Allow: /javascript/
+Disallow: /error/
+Crawl-delay: 60 

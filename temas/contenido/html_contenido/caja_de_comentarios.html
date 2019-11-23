@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" dir="ltr">
+<head>
+
+<title>Caja de comentarios, formulario para comentar en HTML (input type)</title>
+
+<!--FAVICON-->
+<link rel="icon" type="image/png" href="../../../imagenes/favicon.ico" /> 
+
+<!--CSS PRINCIPAL-->
+   <link href="../../../css/estilos.css" rel="stylesheet" type="text/css" />
+   <link href="../../../css/menu.css" rel="stylesheet" type="text/css" />
+   <link href="../../../css/cookies.css" rel="stylesheet" type="text/css" />
+
+<!--Iconos-->
+<link href="../../../css/fonts/style.css" rel="stylesheet" type="text/css"/>
+
+
+
+
+<!--Generador de codigo-->
+<link type="text/css" rel="stylesheet" href="../../../css/caja-de-codigo.css"/>
+
+
+
+<!--METAS DE FACEBOOK-->
+<meta property="og:locale" content="es_ES"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Caja de comentarios, formulario para comentar en HTML (form action)"/>
+<meta property="og:description" content="Gracias a la caja de comentarios podemos permitir al usuario enviarnos cierta información requerida o un comentario acerca de nuestra pagina web, este formulario debe ser enlazado posteriormente con base de datos"/>
+<meta property="og:site_name" content="TU WEB Informativa"/>
+<meta property="og:image" content=""/><meta property="og:image:type" content="image/jpeg" /><meta property="og:image:type" content="image/jpg" /><meta property="og:image:type" content="image/png" /> 
+
+<!-- Metas en la web -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Metas que describen la pagina para una mayor facilidad en el buscador -->
+<!--********meta 1 titulo de la pagina********-->
+   <meta name="title" content="Caja de comentarios, formulario para comentar en HTML (input type)"/>
+<!--********meta 2 nombre del autor********-->
+   <meta name="author" content="Amador J. Martinez R. "/>
+<!--********meta 3 descripcion de la pagina********-->
+   <meta name="description" content="Gracias a la caja de comentarios podemos permitir al usuario enviarnos cierta información requerida o un comentario acerca de nuestra pagina web, este formulario debe ser enlazado posteriormente con base de datos"/>
+<!--********meta 4 palabras claves para busqueda********-->
+   <meta name="keywords" content="android, juegos, apk, aplicaciones, secretos, limpieza, sistema, utilidades, derechos copyrigth, programacion, tecnologia, windows, www, web, informacion, html, xhtml, css, php, javascript, informatica"/>
+<!--********meta 5 lenguajes que tendra tu pagina*******-->
+   <meta name="lenguage" content="español, ingles, spanish, english, all language"/>
+<!--********meta 6 derechos de la pagina********-->
+   <meta name="Copyright" content="2019. Todos los derechos reservados."/>
+<!--********meta 7 indexar paginas por los navegadores********-->
+   <meta name="robots" content="index,follow"/>
+<!--********meta 8 diseño adaptivo a todo tipo de pantallas********-->
+   <meta name="viewport" content="width=device-width, user=scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"> 
+
+
+</head>
+<body>
+
+<div id="master">
+
+<!--banner-->
+<div id="banner-logo">
+<a href="../../../index.html"><img src="../../../imagenes/banner1.jpg" style="width:100%;height:100%; border:0;" alt="banner"/></a>
+</div>
+
+<!--Menu-->
+<header>
+<div class="menu_bar">
+<a href="#" class="bt-menu"><span class="icon-list"></span>Menu</a>
+</div>
+
+<div id="containerbalanceo">
+<nav class="menu">
+<ul id="menubalanceo">
+
+                  <li><a href="../../../index.html"><span class="icon-home"></span>Inicio</a></li>
+
+                  <li><a href="../../../temas/html.html"><span class="icon-html-five"></span>HTML5</a></li>
+
+                  <li><a href="../../../temas/css.html"><span class="icon-css3"></span>CSS3</a></li>
+
+                  <li><a href="../../../temas/javascript.html"><span class="icon-mug"></span>Javascript</a></li>
+
+                  <li><a href="../../../temas/php.html"><span class="icon-database"></span>PHP</a></li>
+
+                  <li><a href="../../../temas/programacion.html"><span class="icon-embed2"></span>Programación</a></li>
+
+                  <li><a href="../../../temas/acerca_de/acerca_de.html"><span class="icon-info"></span>Acerca de</a>
+                  </li>
+               </ul>
+</nav>
+</div>
+</header>
+
+<div id="margen">
+<br>
+<div class="informacion">
+<h1>Caja de comentarios. &lt;input type&gt;</h1>
+
+<br>
+Una caja de comentarios es algo sencillo de hacer y si tenemos conocimientos sobre <a href="../../php.html">PHP y base de datos</a> mucho mejor ya que podemos enlazar nuestra caja de comentarios a una base de datos. En HTML vamos aprender hacer el cajón y hacer la estructura. 
+<br>
+<br>
+Para que los usuarios puedan enviar los campos ingresados y sean vistos por el administrador necesitamos emplear base de datos ya que sin ella solo estará el diseño de una caja de comentarios mediante HTML.
+<br>
+<br>
+<b>Etiqueta para la caja de comentarios:</b>
+<br>
+
+<pre class="brush: html; html-script: false; auto-links: true; class-name:'class_name_demo'">
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;form action="accion.php" method="post"&gt;
+
+Ingrese su Nombre:
+&lt;input type="text" name="nombre" size="25"&gt;
+&lt;br&gt;
+&lt;br&gt;
+Ingrese su Contraseña:
+&lt;input type="password" name="contraseña" size="21"&gt;
+&lt;br&gt;
+&lt;br&gt;
+Añade un comentario
+&lt;br&gt;
+&lt;textarea type="comment" name="comentarios" rows="5" cols="60"&gt;&lt;/textarea&gt;
+&lt;br&gt;
+&lt;input type="submit" value="enviar"&gt;
+&lt;input type="reset" value="borrar"&gt;
+
+&lt;/form&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<h1>Explicación de cada etiqueta.</h1>
+<br>
+<b>&lt;form action="accion.php" method="post"&gt;</b>. Esta propiedad la utilizamos para indicar hacia donde irán los datos al ser enviados al servidor, el servidor procesa los datos y envía una respuesta al usuario después de rellena el formulario y enviar los datos. En este caso se ejecuta la página accion.php (dependiendo del nombre que hemos añadido). En este fichero podríamos hacer que se muestre un mensaje como por ejemplo: "Hola amigo. Usted es bienvenido a nuestra pagina" después del usuario darle clic al botón "enviar"
+<br>
+<br>
+<b>Input type=".."</b>. Es usada para crear botones, barras para ingresar contraseñas, texto, checkbox, entre muchos tipos de datos. Esta propiedad especifica el tipo que sera el elemento. La propiedad que usaremos en este caso sera: <b>Text</b>, con esta propiedad especificamos que ingresaremos texto, esta propiedad es la que aparece por defecto. 
+<br>
+<br>
+<b>Password</b>. Con esta propiedad especificamos que ingresaremos una contraseña, lo cual indica que nuestros caracteres a ingresar serán codificados.
+<br>
+<br>
+<b>Comment</b>. Esta propiedad indica que vamos a ingresar un comentario, lo cual permite colocar todo tipo de carácteres. 
+<br>
+<br>
+<b>Submit</b>. Indica la opción de enviar, con esta propiedad se suele colocar el botón "enviar". 
+<br>
+<br>
+<b>Reset</b>. Especificamos que al darle clic a esta opción se reinician los datos. Esta se usa para el famoso botón "borrar".
+<br>
+<br>
+<b>Name</b>. Con esta propiedad indicamos el nombre que contiene. Este es el nombre que nos llega a la base de datos.
+<br>
+<br>
+<b>Size</b>. Es el tamaño que va a contener nuestra barra de texto, ya sea para una contraseña o comentario, esta indicara el tamaño.
+<br>
+<br>
+<b>Value</b>. Esta propiedad indica el valor inicial de nuestro control. 
+<br>
+<br>
+<b>Rows</b>. En este ejemplo fue usada para indicar el alto de nuestra caja de comentarios.
+<br>
+<br>
+<b>Cols</b>. En este ejemplo fue usada para indicar el ancho de nuestra caja de comentarios
+<br>
+<br>
+
+<br>
+Al final después de aplicar las etiquetas y propiedad mostradas en el código anterior se debe visualizar de la siguiente manera.
+<br>
+<br>
+<div class="imagen-borde-programacion">
+<img src="../../../imagenes/html_contenido_imagenes/caja-de-comentarios-etiqueta2.jpg" alt="caja de comentarios, hacer edicion con html, imagen de ejemplo" style="width:100%;height:0auto;"/>
+</div>
+</div>
+<br>
+
+
+</div>
+      <!--Derechos de autor-->
+
+      <br><br>
+      <footer>
+         <p class="acerca_de">Todos los derechos reservados.
+            <br>
+            Derechos de autor © 2016 - 2019 Amador J. Martínez R.
+
+         </p>
+      </footer>
+   </div>
+
+
+
+
+<!--caja de codigo/generador de etiquetas-->
+<script type="text/javascript" src="../../../javascript/caja-de-codigo/shCore.js"></script>
+<!--lenguajes de la caja de codigo-->
+<script type="text/javascript" src="../../../javascript/caja-de-codigo/shBrushXml.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!--Menu scroll-->
+<script src="../../../javascript/jquery-latest.js"></script>
+<script src="../../../javascript/menu-desplegable.js"></script>
+<script src="../../../javascript/menu-responsive.js"></script>
+
+</body>
+</html>
